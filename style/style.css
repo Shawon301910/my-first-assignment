@@ -24,6 +24,13 @@ body {
     margin: 120px auto 0;
 }
 
+.common-used-btn {
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+
 /* header related style */
 
 #header {
@@ -143,4 +150,36 @@ body {
 
 .party-group .party-img {
     width: 320px;
+}
+
+/* join-now section related style */
+
+.join-now {
+    background: linear-gradient(rgba(255, 0, 0, 0.10) , rgba(255, 0, 0, 0));
+    border-radius: 16px;
+}
+
+.join-now .join-now-container {
+    text-align: center;
+    width: 550px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.join-now .join-now-container .join-now-info {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.join-now .join-now-container .join-now-info .ext-color {
+    color: #FF0000;
+}
+
+.join-now .join-now-container  .join-now-btn {
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin-top: 50px;
 }
