@@ -31,6 +31,13 @@ body {
     border: none;
 }
 
+.description {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
 /* header related style */
 
 #header {
@@ -182,4 +189,48 @@ body {
     border-radius: 8px;
     padding: 16px 32px;
     margin-top: 50px;
+}
+
+/* offer section related style */
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer .coming-offer {
+    width: 320px;
+}
+
+.offer .coming-offer .best-offer {
+    color: #F00;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.offer .coming-offer .best-offer-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.offer .offer-img {
+    outline: 10px solid red;
+    padding: 20px;
+    border-radius: 205px;
+}
+
+.offer-info {
+    width: 275px;
+}
+
+.offer-info .offer-info-title {
+    color: #f00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer .offer-info img {
+    margin-top: 40px;
 }
