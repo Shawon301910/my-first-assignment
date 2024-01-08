@@ -217,6 +217,16 @@ body {
     margin-top: 50px;
 }
 
+.join-now .join-now-container .join-now-btn:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 8px #1f1f1fdd;
+}
+
+.join-now .join-now-container .join-now-btn:active {
+    background-color: #cc0000ef;
+    color: #cbcbcbeb;
+}
+
 /* offer section related style */
 
 .offer {
