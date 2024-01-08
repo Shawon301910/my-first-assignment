@@ -24,6 +24,13 @@ body {
     margin: 120px auto 0;
 }
 
+.red-text {
+    color: #F00;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
 .title {
     color: #070211;
     font-size: 48px;
@@ -43,12 +50,6 @@ body {
     color: #fff;
     font-size: 20px;
     border: none;
-}
-
-.best-offer {
-    color: #F00;
-    font-size: 25px;
-    font-weight: 500;
 }
 
 .description {
@@ -213,24 +214,18 @@ body {
 }
 
 .offer .coming-offer {
-    width: 320px;
-}
-
-.offer .coming-offer .best-offer-title {
-    color: #070211;
-    font-size: 48px;
-    font-weight: 900;
-    margin-bottom: 20px;
+    width: 400px;
 }
 
 .offer .offer-img {
-    outline: 10px solid red;
+    outline: 10px solid #ff0000;
     padding: 20px;
     border-radius: 205px;
 }
 
 .offer-info {
     width: 275px;
+    margin-top: 70px;
 }
 
 .offer-info .offer-info-title {
@@ -251,12 +246,6 @@ body {
     margin: 0 auto;
 }
 
-.function-container .function-content>p {
-    color: #070211;
-    font-size: 24px;
-    font-weight: 500;
-}
-
 .function-container .function-content .holiday {
     color: #070211;
     font-size: 72px;
@@ -268,9 +257,6 @@ body {
     color: #F00;
 }
 
-.gift-container .gift-content {
-    width: 725px;
-}
 .function .function-banner {
     margin-top: 60px;
 }
@@ -295,11 +281,24 @@ body {
 
 /* gift section related style */
 
-.gift-container .gift-img {
+.gift-container .gift-content {
+    width: 725px;
+}
+
+.gift-container .gift-item .gift-img {
     display: flex;
     align-items: center;
     gap: 25px;
     margin-top: 25px;
+}
+
+.gift-container .gift-item .gift-img img {
+    border-radius: 16px;
+}
+
+.gift-container .gift-item .gift-img img:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #000;
 }
 
 /* subscribe section related style */
@@ -341,6 +340,7 @@ body {
     padding: 25px 30px;
     border-radius: 0px 50px 50px 0px;
     border: none;
+    cursor: pointer;
 }
 
 /* footer related style */
@@ -376,4 +376,12 @@ footer {
     border-top: 1px solid #ffffff26;
     border-bottom: 1px solid #ffffff26;
     padding: 45px 0;
+}
+
+.footer-container .footer-icon img {
+    margin-left: 10px;
+}
+
+.footer-container .footer-icon img:first-child {
+    margin-left: 0;
 }
