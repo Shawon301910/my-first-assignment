@@ -285,6 +285,7 @@ body {
 
 .function .function-banner .opening-gift {
     display: flex;
+    justify-content: space-between;
     align-items: start;
     background-image: url(../resources/Rectangle\ 2.png), url(../resources/Rectangle\ 1.png);
     background-repeat: no-repeat;
@@ -300,7 +301,7 @@ body {
 .function .function-banner .opening-gift img:last-child {
     position: relative;
     top: 70px;
-    left: 70px;
+    left: -270px;
 }
 
 /* gift section related style */
