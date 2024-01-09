@@ -298,7 +298,9 @@ body {
 }
 
 .function .function-banner .opening-gift img:last-child {
-    margin: 50px 0;
+    position: relative;
+    top: 70px;
+    left: 70px;
 }
 
 /* gift section related style */
